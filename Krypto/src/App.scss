@@ -1,0 +1,31 @@
+:root{
+  --bg-color: #040F4B;
+  --btn-color: #8F8FDB;
+  --btn-border-color: #87CFD0;
+  --logo-section-color: #5B529F54;
+
+  --title-font: 'Outfit', sans-serif;
+
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+  color: #FFFFFF;
+}
+
+body{
+  margin: 0 auto;
+  font-family: 'Outfit', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.wrapper{
+  max-width: 1065px;
+  margin: 0 auto;
+}
+
+

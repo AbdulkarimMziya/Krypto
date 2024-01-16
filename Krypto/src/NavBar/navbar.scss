@@ -1,0 +1,25 @@
+@import "../App.scss";
+
+.navbar{
+    margin-top: 20px;
+}
+.nav-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 2px dotted red;
+
+    .nav-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 65px;
+    }
+
+    h1{
+        text-transform: uppercase;
+    }
+}
