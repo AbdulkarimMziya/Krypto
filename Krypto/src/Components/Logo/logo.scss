@@ -1,0 +1,21 @@
+@import "../../App.scss";
+
+.logo{
+    // border: 2px dotted red;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    padding: 25px 130px;
+    border-radius: 21px;
+    background-color: rgba(91, 82, 159, 0.33);
+
+
+    img{
+        background-color: transparent;
+    }
+}
