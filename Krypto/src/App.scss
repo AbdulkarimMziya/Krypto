@@ -1,11 +1,19 @@
+// Define Color Scheme
+$background: #040F4B;
+$button: #8F8FDB;
+$logo-section: #5B529F54;
+
+$primary-font-family: 'Outfit', sans-serif;
+
 :root{
-  --bg-color: #040F4B;
-  --btn-color: #8F8FDB;
+  --bg-color: #{$background};
+  --btn-color: #{$button};
   --btn-border-color: #87CFD0;
-  --logo-section-color: #5B529F54;
+  --logo-section-color: #{$logo-section};
 
+  // Define Fonts Family
   --title-font: 'Outfit', sans-serif;
-
+  --content-font: 'Roboto' , sans-serif;
 }
 
 *, *::after, *::before {
@@ -14,9 +22,13 @@
   color: #FFFFFF;
 }
 
+.webpage{
+  min-height: 100vh;
+}
+
 body{
   margin: 0 auto;
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--content-font);
 }
 
 a{
@@ -29,3 +41,47 @@ a{
 }
 
 
+// -------Font styles-----------
+h1{
+  color: #FFF;
+
+  /* H1 - Main Heading */
+  font-family: Outfit;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 70px */
+  text-transform: capitalize;
+}
+
+h2{
+  color: #FFF;
+
+  /* H2 */
+  font-family: Outfit;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 60px */
+  text-transform: capitalize;
+}
+
+.subheading{
+  color: #FFF;
+
+  /* Subheading */
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.5px; /* 137.5% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+.btn{
+  padding: 18px 35px;
+  border-radius: 94px;
+  background: var(--btn-color);
+}
