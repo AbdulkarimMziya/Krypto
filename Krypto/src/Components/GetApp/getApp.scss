@@ -1,0 +1,39 @@
+@import "../../App.scss";
+
+
+.getApp-section{
+    margin-top: 50px;
+}
+
+
+.section-right{
+        
+
+
+    h3{
+        margin-top: 0;
+    }
+
+    h2{
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 521px;
+        width: 100%;
+        text-align: start;
+    }
+
+    p{
+        max-width: 395px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    a{
+        display: flex;
+        width: 348px;
+        padding: 18px 51px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
